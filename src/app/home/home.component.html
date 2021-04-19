@@ -1,0 +1,10 @@
+<div class="container">
+  <p>{{hours < 10 && hours >= 1 ? '0' + hours : hours}}:{{minutes < 10 && minutes >= 1 ? '0' + minutes : minutes}}
+    :{{seconds}}</p>
+
+  <div class="buttons-block">
+    <button (click)="start()">Start</button>
+    <button (click)="wait()">Wait</button>
+    <button (click)="reset()">Reset</button>
+  </div>
+</div>

@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+p {
+  font-size: 2em;
+}
+
+button  {
+  background: darkcyan;
+  color: white;
+  border: 1px solid darkcyan;
+  margin-right: .7vw;
+  border-radius: 4px;
+  padding: 1.5vh 2vw;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ffffff;
+  color: darkcyan;
+}
+
+button:last-child {
+  margin-right: 0;
+}
